@@ -1,0 +1,882 @@
+﻿Test Case Identifier,Step No,Step Data,Data,Expected Result,Priority,Test Summary,Description,Estatus,TestSet,Sprint,Story,Assignee,Componente,Label,Label,Label,Label
+MMCS - 35522 - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-15-35522-01 - Mejora de Sabanas Sugerencia de Matches,,TODO,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,8,Dar clic a la pestana de Cancelaciones solicitadas,,"El sistema realiza correctamente el cambio de pestana pero al no haber realizado la busqueda solo se muestra el mensaje: ""Aqui se visualizaran los datos"" o en su defecto el mensaje: ""No se han encontrado resultados""",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,9,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" seleccionando por defecto la pestana Sugerencia de Automatches mostrando la siguente Informacion:
+
+- Descripcion: ""Aprueba la activacion de los matches correctos y elimina los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descripcion Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 01,10,Nevegar por la tabla de resultados,,Se permite manipular y visualizar correctamente la informacion obtenida,P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-15-35522-02 - Mejora de Sabanas Matches Activos,,TODO,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,8,Dar clic a la pestana de Matches Activos,,"El sistema realiza correctamente el cambio de pestana pero al no haber realizado la busqueda solo se muestra el mensaje: ""Aqui se visualizaran los datos"" o en su defecto el mensaje: ""No se han encontrado resultados""",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,9,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" y la pestana Matches Activos mostrando la siguente Informacion:
+
+- Descripcion: ""Revisa que los matches activos esten correctos y solicita la Cancelacion de los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Activos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descripcion Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Tipo de Match
+   k) Autorizo
+   l) Fecha Match
+   m) Precio Walmart
+   n) Precio Competidor
+   o) Diferencial
+   p) URL
+   q) Cancelar
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 02,10,Nevegar por la tabla de resultados,,Se permite manipular y visualizar correctamente la informacion obtenida,P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-15-35522-03 - Mejora de Sabanas Cancelaciones Solicitadas,,TODO,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,8,Dar clic a la pestana de Cancelaciones solicitadas,,"El sistema realiza correctamente el cambio de pestana pero al no haber realizado la busqueda solo se muestra el mensaje: ""Aqui se visualizaran los datos"" o en su defecto el mensaje: ""No se han encontrado resultados""",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,9,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" y la pestana Cancelaciones Solicitadas mostrando la siguente Informacion:
+
+- Descripcion: ""Las cancelaciones aprobadas regresaran a Sugerencias. Las cancelaciones rechazadas continuaran como Matches activos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Cancelaciones Solicitadas
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descripcion Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Tipo de Match
+   k) Autorizo
+   l) Fecha Match
+   m) Precio Walmart
+   n) Precio Competidor
+   o) Motivo de Cancelacion
+   p) Solicita
+   q) Fecha Solicitud
+   r) URL
+   s) Acciones
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35522 - 03,10,Nevegar por la tabla de resultados,,Se permite manipular y visualizar correctamente la informacion obtenida,P1,,,,MMCS-36886,bug_mejoras_kraken,MMCS-35522,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
