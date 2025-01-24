@@ -1,0 +1,1408 @@
+﻿Test Case Identifier,Step No,Step Data,Data,Expected Result,Priority,Test Summary,Description,TestPlan,Issue Link,TestSet,TestPlan,Sprint,Story,Assignee,Componente,Label,Label,Label,Label
+MMCS - 35463 - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-12-35463-01 - Sugerencia de Matches - Buscar por Descripción/UPC,,TODO,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,8,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" seleccionando por defecto la pestana Sugerencia de Automatches mostrando la siguente Informacion:
+
+- Descripcion: ""Aprueba la activacion de los matches correctos y elimina los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descripcion Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,,MMCS-36883,MMCS-36880,bugs_mejoras_kraken,MMCS-35463,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 01,9,Dar clic al Campo Buscar por Descripción o UPC,,El sistema habilita correctamente el campo para su edición,P1,,,,,,,,,,,,,,
+MMCS - 35463 - 01,10,Ingresar Descrpción o UPC,,El sistema realiza correctamente la búsqueda con base a los criterios ingresados y va filtrando los resultado correctamente,P1,,,,,,,,,,,,,,
+MMCS - 35463 - 01,11,Validar integridad de la Informacion,,El sistema muestra correctamente los resultados obtenidos y estos coinciden correctamente con los criterios de busqueda previamente seleccionados,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-12-35463-02 - Sugerencia de Matches - Catalogo Extendido - Filtro 3P,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,5,"Seleccionar Banner
+(Elegir opcion Catalogo Extendido)",,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,8,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" seleccionando por defecto la pestana Sugerencia de Automatches mostrando la siguente Informacion:
+
+- Descripcion: ""Aprueba la activacion de los matches correctos y elimina los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Leyenda Modelo de Venta
+- Check Box 1P
+- Check Box 3P
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Modelo de Venta
+   e) Seller Walmart
+   f) Marca
+   g) Competidor
+   h) Descripcion Competidor
+   i) SKU Competidor
+   j) Seller Competidor
+   k) Precio Walmart
+   l) Precio Competidor
+   m) Similitud
+   m) URL
+   o) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,9,Dar clic al check box 3P,,El sistema permite correctamente la selección de flitro rellenado y marcando el cuadro con una palomita de blanca con fondo de color gris,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,10,Validar integridad de la Informacion,,El sistema  muestra correctamente los resultados que tengan un Modelo de Venta 3P,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 02,11,Dar clic al check box 3P,,El sistema anula correctamente la selección de flitro volviendo a dejar el check box en blanco,P1,,,,,,,,,,,,,,
+MMCS - 35463 - 02,12,Validar integridad de la Informacion,,El sistema ya no muestra los arriculos que tengan un Modelo de Venta 3P,P1,,,,,,,,,,,,,,
+MMCS - 35463 - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-12-35463-03 - Sugerencia de Matches - Catalogo Extendido - Filtro 1P,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,5,"Seleccionar Banner
+(Elegir opcion Catalogo Extendido)",,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,8,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" seleccionando por defecto la pestana Sugerencia de Automatches mostrando la siguente Informacion:
+
+- Descripcion: ""Aprueba la activacion de los matches correctos y elimina los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Leyenda Modelo de Venta
+- Check Box 1P
+- Check Box 3P
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Modelo de Venta
+   e) Seller Walmart
+   f) Marca
+   g) Competidor
+   h) Descripcion Competidor
+   i) SKU Competidor
+   j) Seller Competidor
+   k) Precio Walmart
+   l) Precio Competidor
+   m) Similitud
+   m) URL
+   o) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 03,9,Dar clic al check box 1P,,El sistema no permite la modificación de este campo ya que es un campo no editable,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-12-35463-04 - Sugerencia de Matches - Navegación por Tabla de Resultados,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,8,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" seleccionando por defecto la pestana Sugerencia de Automatches mostrando la siguente Informacion:
+
+- Descripcion: ""Aprueba la activacion de los matches correctos y elimina los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descripcion Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,9,Posicionar el cursor en las columnas de la izquierda,,El sistema cambia el cursor a una manita indicando que se puede manipular la visibilidad de campos,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 04,10,Dejar presionado el clic y mover el cursor de izquierda a derecha,,"El sistema permite correctamente el desplazamiento de información, mostrando las columnas ocultas sin perder visibilidad de los campos de la derecha",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-12-35463-05 - Sugerencia de Matches - Filtro de Artículos,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,2,Seleccionar la opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- Botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- Botón Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,4,Seleccionar Formato de tienda,,"Se permite la selección de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catálogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,6,Seleccionar Competidor,,"Al haber seleccionado la opción Walmart se mostraran los competidores relacionados
+Se permite la selección de promoción correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,7,Dar clic al botón Aplicar,,"El sistema realiza la selección correctamente y se hábilita el botón Buscar
+También se muestran correctamente las siguientes pestañas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,8,Dar clic al botón Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con éxito"" seleccionando por defecto la pestaña Sugerencia de Automatches mostrando la siguente información:
+
+- Descripción: ""Aprueba la activación de los matches correctos y elimina los incorrectos."" 
+- Botón Descargar Resultados
+- Botón Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio buttón de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opción Top Venta
+- Campo de Texto Buscar por Descripción o UPC
+- Información de articulos con los siguientes campos:
+   a) Descripción Walmart
+   b) UPC Walmart
+   c) Artículos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descrpción Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Página
+- Contador Total de Registros
+- Botónes de Paginación",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,9,Dar clic a la opción Todos,,El sistema muestra correctamente todos los resultados obtenidos,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,10,Dar clic a la opción Evento,,El sistema muestra correctamente solo los resultados que correspondan a Eventos,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 05,11,Dar clic a la opción Top Ventas,,El sistema muestra correctamente solo los resultados con Venta,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-12-35463-06 - Mensajes Snak Bar,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,2,Seleccionar la opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- Botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- Botón Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,4,Seleccionar Formato de tienda,,"Se permite la selección de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catálogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,6,Seleccionar Competidor,,"Al haber seleccionado la opción Walmart se mostraran los competidores relacionados
+Se permite la selección de promoción correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,7,Dar clic al botón Aplicar,,"El sistema realiza la selección correctamente y se hábilita el botón Buscar
+También se muestran correctamente las siguientes pestañas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,8,Dar clic al botón Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con éxito"" seleccionando por defecto la pestaña Sugerencia de Automatches mostrando el siguiente mensaje: 
+
+""No se encontraron resultado, por favor intente más tarde""",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,9,Dar clic a la opción Evento,,"El sistema muestra el siguiente mensaje de error:
+""No se encontraron articulos EFI""",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 06,10,Dar clic a la opción Top Ventas,,"El sistema muestra el siguiente mensaje de error:
+""No se encontraron articulos con venta""",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-12-35463-07 - Sugerencia de Matches - Descargar Resultados,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,2,Seleccionar la opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- Botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- Botón Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,4,Seleccionar Formato de tienda,,"Se permite la selección de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catálogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,6,Seleccionar Competidor,,"Al haber seleccionado la opción Walmart se mostraran los competidores relacionados
+Se permite la selección de promoción correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,7,Dar clic al botón Aplicar,,"El sistema realiza la selección correctamente y se hábilita el botón Buscar
+También se muestran correctamente las siguientes pestañas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,8,Dar clic al botón Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con éxito"" seleccionando por defecto la pestaña Sugerencia de Automatches mostrando la siguente información:
+
+- Descripción: ""Aprueba la activación de los matches correctos y elimina los incorrectos."" 
+- Botón Descargar Resultados
+- Botón Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio buttón de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opción Top Venta
+- Campo de Texto Buscar por Descripción o UPC
+- Información de articulos con los siguientes campos:
+   a) Descripción Walmart
+   b) UPC Walmart
+   c) Artículos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descrpción Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Página
+- Contador Total de Registros
+- Botónes de Paginación",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,9,Dar clic al botón Descargar Resultados,,"El sistema inicia correctamente el proceso de descarga y al finalizar se genera un archivo .xlsx con el nombre ""Reporte de Artículos Match y no Match Walmart/Bodega/Sams""",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 07,10,Validar Reporte,,El reporte muestra los datos correctamente tal cual y se muestra en el aplicativo,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-12-35463-08 - Sugerencia de Matches - Pantalla Completa,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,2,Seleccionar la opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- Botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- Botón Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la selección de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catálogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,6,Seleccionar Competidor,,"Al haber seleccionado la opción Walmart se mostraran los competidores relacionados
+Se permite la selección de promoción correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,7,Dar clic al botón Aplicar,,"El sistema realiza la selección correctamente y se hábilita el botón Buscar
+También se muestran correctamente las siguientes pestañas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,8,Dar clic al botón Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con éxito"" seleccionando por defecto la pestaña Sugerencia de Automatches mostrando la siguente información:
+
+- Descripción: ""Aprueba la activación de los matches correctos y elimina los incorrectos."" 
+- Botón Descargar Resultados
+- Botón Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio buttón de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opción Top Venta
+- Campo de Texto Buscar por Descripción o UPC
+- Información de articulos con los siguientes campos:
+   a) Descripción Walmart
+   b) UPC Walmart
+   c) Artículos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descrpción Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Página
+- Contador Total de Registros
+- Botónes de Paginación",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 08,9,Dar clic al botón Pantalla Completa,,El sistema cambia el ajuste de la pantalla correctamente mostrando únicamente la tabla de resultados,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-12-35463-09 - Sugerencia de Matches - Sugerencia de Matches - Filtro de Páginación/Scroll,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,8,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" seleccionando por defecto la pestana Sugerencia de Automatches mostrando la siguente Informacion:
+
+- Descripcion: ""Aprueba la activacion de los matches correctos y elimina los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descripcion Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Pagina
+- Contador Total de Registros (Este mostrará por defecto 100 registros por página)
+- botones de Paginacion",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,9,En la parte inferior de la pantalla dar clic al filtro Registros por Página,,"El sistema despliega un menu emergente con las siguientes opciones:
+- 5
+- 10
+- 20
+- 50
+- 100",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 09,10,Seleccionar cantidad de visualización de registros,,"El sistema permite la selección de registros correctamente, ajustando la cantidad de registros mostrados en pantalla y en su defecto también el Scroll de la pantalla para que la accesibilidad a la información sea mejor",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Politicas vigentes
+Kraken
+SUMD MDO Sams
+Configuracion de Perfil
+Registrar Anuncio",P1,TC-12-35463-10 - Sugerencia de Matches - Sugerencia de Matches - Filtro de Páginación/Scroll,,TODO,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,2,Seleccionar la opcion Kraken,,"Se visualiza correctamente el menu de Digitalizacion mostrando las siguientes opciones:
+
+Kraken",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,3,Seleccionar la pestana de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- opcion Formato de tienda
+- opcion Banner
+- opcion Competidor
+- opcion Tribu
+- opcion Super Squad
+- opcion Squad
+- opcion Departamento
+- opcion Categoria
+- boton Buscar (Deshabilitado inicialmente hasta que se realice como minimo la seleccion de Competidor)
+- boton Limpiar Filtros",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la seleccion de formato entre las siguientes opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,6,Seleccionar Competidor,,"Al haber seleccionado la opcion Walmart se mostraran los competidores relacionados
+Se permite la seleccion de competidor correctamente entre las siguientes opciones:
+
+- Palacio de Hierro
+- Costco
+- Amazon
+- HomeDepot
+- Justo
+- Coppel
+- Liverpool
+- Sears
+- H.E.B.
+- Mercado Libre
+- Office Depot
+- Elektra",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,7,Dar clic al boton Aplicar,,"El sistema realiza la seleccion correctamente y se habilita el boton Buscar
+Tambien se muestran correctamente las siguientes pestanas:
+- Sugerencia de Matches
+- Matches Activos
+- Cancelaciones solicitadas",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,8,Dar clic al boton Buscar,,"El sistema muestra el mensaje ""Resultados encontrados con exito"" seleccionando por defecto la pestana Sugerencia de Automatches mostrando la siguente Informacion:
+
+- Descripcion: ""Aprueba la activacion de los matches correctos y elimina los incorrectos."" 
+- boton Descargar Resultados
+- boton Pantalla Completa
+- Leyenda Matches Sugeridos 
+- Radio button de resultados (Todos/Top Venta/Evento) seleccionando por defecto la opcion Top Venta
+- Campo de Texto Buscar por Descripcion o UPC
+- Informacion de articulos con los siguientes campos:
+   a) Descripcion Walmart
+   b) UPC Walmart
+   c) Articulos
+   d) Seller Walmart
+   e) Marca
+   f) Competidor
+   g) Descripcion Competidor
+   h) SKU Competidor
+   i) Seller Competidor
+   j) Precio Walmart
+   k) Precio Competidor
+   l) Similitud
+   m) URL
+   n) Acciones (Aprobar/Eliminar)
+- Filtro Registros por Pagina
+- Contador Total de Registros
+- botones de Paginacion",P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+MMCS - 35463 - 10,9,En la parte inferior de la pantalla realizar cambio de Página,,El sistema permite el cambio de página correctamente mostrando nuevos registros con base a la cantidad de registros seleccionado,P1,,,,,MMCS-36887,MMCS-36880,bugs_mejoras_kraken,MMCS-35525,vn57rn3,PCS_Kraken (Price Value),DA_AX,DEV,SP-KR-25,TC-Compass
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
