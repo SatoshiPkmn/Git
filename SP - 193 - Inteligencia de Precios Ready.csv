@@ -1,0 +1,1786 @@
+﻿Test Case Identifier,Step No,Action,Data,Expected Result,Priority,Test Summary,Description,TestSet,TestPlan,Sprint,Assignee,Componente,Label,Label,Label,Label
+MMCS - 35831  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-137-35831-01 - Modificación a movimiento CB - Trait,,MMCS-39560,MMCS-37542,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-193,TC-Compass
+MMCS - 35831  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35831  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 35831  - 01,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 35831  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35831  - 01,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 35831  - 01,7,Seleccionar tipo de movimiento CB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 35831  - 01,8,Seleccionar Fecha de Vigencia Inicial ,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 35831  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 35831  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 35831  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 35831  - 01,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos: W/WE/B",P1,,,,,,,,,,,
+MMCS - 35831  - 01,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 35831  - 01,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 35831  - 01,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 35831  - 01,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 35831  - 01,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 35831  - 01,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 35831  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-137-35831-02 - Modificación a movimiento CB - Sin Trait,,MMCS-39560,MMCS-37542,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-193,TC-Compass
+MMCS - 35831  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35831  - 02,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 35831  - 02,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 35831  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35831  - 02,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 35831  - 02,7,Seleccionar tipo de movimiento CB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 35831  - 02,8,Seleccionar Fecha de Vigencia Inicial ,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 35831  - 02,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 35831  - 02,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 35831  - 02,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 35831  - 02,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos: W/WE/B",P1,,,,,,,,,,,
+MMCS - 35831  - 02,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 35831  - 02,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 35831  - 02,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 35831  - 02,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 35831  - 02,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 35831  - 02,18,Validar Cambios en Price X,,Se realiza la actualización de precio correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-138-35832-01 - Modificación a movimiento SB - Trait - Envío Inmediato,,MMCS-39561,MMCS-37542,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-193,TC-Compass
+MMCS - 35832  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35832  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 35832  - 01,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35832  - 01,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 35832  - 01,7,Seleccionar tipo de movimiento SB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 35832  - 01,8,Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha del día actual),,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 35832  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 35832  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 35832  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 35832  - 01,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 35832  - 01,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 35832  - 01,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 01,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 35832  - 01,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 01,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 35832  - 01,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 35832  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-138-35832-02 - Modificación a movimiento SB - Sin Trait - Envío Inmediato,,MMCS-39561,MMCS-37542,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-193,TC-Compass
+MMCS - 35832  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35832  - 02,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 35832  - 02,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35832  - 02,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 35832  - 02,7,Seleccionar tipo de movimiento SB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 35832  - 02,8,Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha del día actual),,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 35832  - 02,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 35832  - 02,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 35832  - 02,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 35832  - 02,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 35832  - 02,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 35832  - 02,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 02,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 35832  - 02,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 02,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 35832  - 02,18,Validar Cambios en Price X,,Se realiza la actualización de precio correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-138-35832-03 - Modificación a movimiento SB - Trait - Envío Futuro,,MMCS-39561,MMCS-37542,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-193,TC-Compass
+MMCS - 35832  - 03,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35832  - 03,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 35832  - 03,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 03,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35832  - 03,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 35832  - 03,7,Seleccionar tipo de movimiento SB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 35832  - 03,8,"Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha Futura [1 Semana, 1 Mes, Etc.])",,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 35832  - 03,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 35832  - 03,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 35832  - 03,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 35832  - 03,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 35832  - 03,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 35832  - 03,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 03,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 35832  - 03,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 03,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 35832  - 03,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 35832  - 04,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-138-35832-04 - Modificación a movimiento SB - Sin Trait - Envío Futuro,,MMCS-39561,MMCS-37542,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-193,TC-Compass
+MMCS - 35832  - 04,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35832  - 04,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 35832  - 04,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 04,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35832  - 04,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 35832  - 04,7,Seleccionar tipo de movimiento SB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 35832  - 04,8,"Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha Futura [1 Semana, 1 Mes, Etc.])",,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 35832  - 04,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 35832  - 04,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 35832  - 04,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 35832  - 04,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 35832  - 04,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 35832  - 04,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 04,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 35832  - 04,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 35832  - 04,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 35832  - 04,18,Validar Cambios en Price X,,Se realiza la actualización de precio correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-139-36393-01 - Modificación a movimiento RB - Trait - Envío Inmediato,,MMCS-39562,MMCS-37543,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-194,TC-Compass
+MMCS - 36393  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 36393  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 36393  - 01,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 36393  - 01,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 36393  - 01,7,Seleccionar tipo de movimiento RB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 36393  - 01,8,Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha del día actual o día siguiente),,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 36393  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 36393  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 36393  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 36393  - 01,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos que aplique: W/WE/B",P1,,,,,,,,,,,
+MMCS - 36393  - 01,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 36393  - 01,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 01,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 36393  - 01,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 01,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 36393  - 01,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 36393  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-139-36393-02 - Modificación a movimiento RB - Sin Trait - Envío Inmediato,,MMCS-39562,MMCS-37543,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-194,TC-Compass
+MMCS - 36393  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 36393  - 02,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 36393  - 02,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 36393  - 02,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 36393  - 02,7,Seleccionar tipo de movimiento RB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 36393  - 02,8,Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha del día actual o día siguiente),,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 36393  - 02,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 36393  - 02,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 36393  - 02,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 36393  - 02,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos que aplique: W/WE/B",P1,,,,,,,,,,,
+MMCS - 36393  - 02,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 36393  - 02,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 02,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 36393  - 02,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 02,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 36393  - 02,18,Validar Cambios en Price X,,Se realiza la actualización de precio correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-139-36393-03 - Modificación a movimiento RB - Trait - Envío Futuro,,MMCS-39562,MMCS-37543,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-194,TC-Compass
+MMCS - 36393  - 03,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 36393  - 03,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 36393  - 03,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 03,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 36393  - 03,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 36393  - 03,7,Seleccionar tipo de movimiento RB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 36393  - 03,8,"Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha Futura [1 Semana, 1 Mes, Etc.])",,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 36393  - 03,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 36393  - 03,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 36393  - 03,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 36393  - 03,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos que aplique: W/WE/B",P1,,,,,,,,,,,
+MMCS - 36393  - 03,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 36393  - 03,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 03,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 36393  - 03,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 03,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 36393  - 03,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 36393  - 04,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-139-36393-04 - Modificación a movimiento RB - Sin Trait - Envío Futuro,,MMCS-39562,MMCS-37543,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-194,TC-Compass
+MMCS - 36393  - 04,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 36393  - 04,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 36393  - 04,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 04,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 36393  - 04,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 36393  - 04,7,Seleccionar tipo de movimiento RB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 36393  - 04,8,"Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha Futura [1 Semana, 1 Mes, Etc.])",,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 36393  - 04,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 36393  - 04,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 36393  - 04,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 36393  - 04,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos que aplique: W/WE/B",P1,,,,,,,,,,,
+MMCS - 36393  - 04,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 36393  - 04,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 04,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 36393  - 04,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 36393  - 04,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 36393  - 04,18,Validar Cambios en Price X,,Se realiza la actualización de precio correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-140-37262-01 - Replica de regla SC a WE - SB,,MMCS-39563,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37262  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37262  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37262  - 01,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37262  - 01,6,Seleccionar el formato a trabajar (SC),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37262  - 01,7,Seleccionar tipo de movimiento SB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37262  - 01,8,Seleccionar Fecha de Vigencia Inicial,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37262  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37262  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37262  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37262  - 01,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37262  - 01,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37262  - 01,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 01,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37262  - 01,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 01,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37262  - 01,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37262  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-140-37262-02 - Replica de regla SC a WE - RB,,MMCS-39563,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37262  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37262  - 02,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37262  - 02,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37262  - 02,6,Seleccionar el formato a trabajar (SC),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37262  - 02,7,Seleccionar tipo de movimiento RB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37262  - 02,8,Seleccionar Fecha de Vigencia Inicial,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37262  - 02,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37262  - 02,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37262  - 02,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37262  - 02,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37262  - 02,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37262  - 02,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 02,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37262  - 02,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 02,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37262  - 02,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37262  - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-140-37262-03 - Replica de regla SC a WE - PA,,MMCS-39563,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37262  - 03,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37262  - 03,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37262  - 03,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 03,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37262  - 03,6,Seleccionar el formato a trabajar (SC),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37262  - 03,7,Seleccionar tipo de movimiento PA,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37262  - 03,8,Seleccionar Fecha de Vigencia Inicial,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37262  - 03,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37262  - 03,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37262  - 03,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37262  - 03,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37262  - 03,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37262  - 03,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 03,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37262  - 03,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 03,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37262  - 03,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37262  - 04,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-140-37262-04- Replica de regla SC a WE - CS,,MMCS-39563,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37262  - 04,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37262  - 04,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37262  - 04,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 04,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37262  - 04,6,Seleccionar el formato a trabajar (SC),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37262  - 04,7,Seleccionar tipo de movimiento CS,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37262  - 04,8,Seleccionar Fecha de Vigencia Inicial,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37262  - 04,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37262  - 04,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37262  - 04,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37262  - 04,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37262  - 04,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37262  - 04,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 04,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37262  - 04,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37262  - 04,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37262  - 04,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37263  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-141-37263-01- Implementación del rechazo de los movimientos de MD,,MMCS-39563,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37263  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37263  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37263  - 01,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37263  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37263  - 01,6,Seleccionar el formato a trabajar (Todos),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37263  - 01,7,Seleccionar tipo de movimiento MD,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37263  - 01,8,Seleccionar Fecha de Vigencia Inicial,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37263  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37263  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37263  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37263  - 01,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37263  - 01,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37263  - 01,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37263  - 01,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37263  - 01,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37263  - 01,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37263  - 01,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37264  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-142-37264-01 - Modificación a movimiento CB - Trait,,MMCS-39565,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37264  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37264  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37264  - 01,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37264  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37264  - 01,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37264  - 01,7,Seleccionar tipo de movimiento CB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37264  - 01,8,Seleccionar Fecha de Vigencia Inicial ,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37264  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37264  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37264  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37264  - 01,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos: W/WE/B
+Se muestra Warning con la siguiente leyenda:
+""El movimiento para los siguientes traits no será procesado debido a que el artículo cuenta con un movimiento de Plan Estratégico""",P1,,,,,,,,,,,
+MMCS - 37264  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-142-37264-02 - Modificación a movimiento CB - Sin Trait,,MMCS-39565,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37264  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37264  - 02,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37264  - 02,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37264  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37264  - 02,6,Seleccionar el formato a trabajar,,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37264  - 02,7,Seleccionar tipo de movimiento CB,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37264  - 02,8,Seleccionar Fecha de Vigencia Inicial ,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37264  - 02,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37264  - 02,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37264  - 02,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37264  - 02,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Se mandarán en adición SB's generados para los formatos: W/WE/B",P1,,,,,,,,,,,
+MMCS - 37266  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-143-37266-01- Implementación PA en Lógica de Price X - Trait - Envío Inmediato,,MMCS-39566,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37266  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37266  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37266  - 01,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37266  - 01,6,Seleccionar el formato a trabajar (Todos),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37266  - 01,7,Seleccionar tipo de movimiento PA,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37266  - 01,8,Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha del día actual o siguiente),,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37266  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37266  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37266  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37266  - 01,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37266  - 01,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37266  - 01,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 01,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37266  - 01,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 01,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37266  - 01,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37266  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-143-37266-02- Implementación PA en Lógica de Price X - Trait - Envío Futuro,,MMCS-39566,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37266  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37266  - 02,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37266  - 02,4,Ingresar No de Item/UPC Producto (Perteneciente a Trait),,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37266  - 02,6,Seleccionar el formato a trabajar (Todos),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37266  - 02,7,Seleccionar tipo de movimiento PA,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37266  - 02,8,"Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha Futura [1 Semana, 1 Mes, Etc.])",,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37266  - 02,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37266  - 02,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37266  - 02,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37266  - 02,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37266  - 02,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37266  - 02,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 02,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37266  - 02,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 02,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37266  - 02,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37266  - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-143-37266-03- Implementación PA en Lógica de Price X - Sin Trait - Envío Inmediato,,MMCS-39566,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37266  - 03,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37266  - 03,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37266  - 03,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 03,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37266  - 03,6,Seleccionar el formato a trabajar (Todos),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37266  - 03,7,Seleccionar tipo de movimiento PA,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37266  - 03,8,Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha del día actual o siguiente),,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37266  - 03,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37266  - 03,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37266  - 03,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37266  - 03,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37266  - 03,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37266  - 03,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 03,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37266  - 03,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 03,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37266  - 03,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37266  - 04,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-143-37266-04- Implementación PA en Lógica de Price X - Sin Trait - Envío Futuro,,MMCS-39566,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37266  - 04,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37266  - 04,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37266  - 04,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 04,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37266  - 04,6,Seleccionar el formato a trabajar (Todos),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37266  - 04,7,Seleccionar tipo de movimiento PA,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37266  - 04,8,"Seleccionar Fecha de Vigencia Inicial (Seleccionar Fecha Futura [1 Semana, 1 Mes, Etc.])",,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37266  - 04,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37266  - 04,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37266  - 04,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37266  - 04,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37266  - 04,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37266  - 04,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 04,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37266  - 04,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37266  - 04,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37266  - 04,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS - 37267  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-144-37267-01- Implementación del manejo de MD's en Price X,,MMCS-39567,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS - 37263  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 37263  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS - 37263  - 01,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS - 37263  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 37263  - 01,6,Seleccionar el formato a trabajar (Todos),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS - 37263  - 01,7,Seleccionar tipo de movimiento MD,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS - 37263  - 01,8,Seleccionar Fecha de Vigencia Inicial,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS - 37263  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS - 37263  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS - 37263  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado,,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS - 37263  - 01,12,Dar clic al botón Validar,,Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios,P1,,,,,,,,,,,
+MMCS - 37263  - 01,13,Dar clic al botón Envíar Cambios,,"Se muestra la pantalla de Enviar Cambios solicitando ingresar usuario
+Nota:
+En caso de Warning el sistema permitirá continuar con el flujo
+En caso de errorres el botón no estará habilitado",P1,,,,,,,,,,,
+MMCS - 37263  - 01,14,Ingresar usuario de Category Manager,,El sistema permite ingresar los datos correctamente,P1,,,,,,,,,,,
+MMCS - 37263  - 01,15,Dar clic al botón Obtener Autorizadores,,"El sistema muestra los usuarios necesarios para autorizar la solicitud
+(Lider de Tribu/Lider de Squad)",P1,,,,,,,,,,,
+MMCS - 37263  - 01,16,Dar clic al botón Continuar,,Se genera correctamente la solicitud y genera el folio CP correctamente,P1,,,,,,,,,,,
+MMCS - 37263  - 01,17,Solicitar autorización,,El usuario Lider de Squad y Lider de Tribu deben realizar la autorización para ver reflejado el cambio,P1,,,,,,,,,,,
+MMCS - 37263  - 01,18,Validar Cambios en Price X,,Para elementos pertenecientes a Trait (Plan estratégico) no deberá verse afectada la información,P1,,,,,,,,,,,
+MMCS -37272  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-145-37272-01 - Creación de regla de escalera de precios - Bodega,,MMCS-39568,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS -37272  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS -37272  - 01,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS -37272  - 01,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS -37272  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS -37272  - 01,6,Seleccionar el formato a trabajar (B),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS -37272  - 01,7,Seleccionar tipo de movimiento,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS -37272  - 01,8,Seleccionar Fecha de Vigencia Inicial ,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS -37272  - 01,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS -37272  - 01,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS -37272  - 01,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar un incremento de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS -37272  - 01,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Al ingresar un precio más alto que SC y WE se muestra el siguiente error: ""Un artículo de Bodega no puede tener un precio más alto que el de los formatos de SC y WE""",P1,,,,,,,,,,,
+MMCS -37272  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-145-37272-02- Creación de regla de escalera de precios - SC,,MMCS-39568,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS -37272  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS -37272  - 02,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS -37272  - 02,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS -37272  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS -37272  - 02,6,Seleccionar el formato a trabajar (SC),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS -37272  - 02,7,Seleccionar tipo de movimiento,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS -37272  - 02,8,Seleccionar Fecha de Vigencia Inicial ,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS -37272  - 02,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS -37272  - 02,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS -37272  - 02,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS -37272  - 02,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Al ingresar un precio más alto que SC y WE se muestra el siguiente error: ""Un artículo de SC o WE no puede tener un precio más bajo que el del formato de Bodega""",P1,,,,,,,,,,,
+MMCS -37272  - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-145-37272-03- Creación de regla de escalera de precios - WE,,MMCS-39568,MMCS-39581,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-195,TC-Compass
+MMCS -37272  - 03,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS -37272  - 03,3,Seleccionar opción Cambio de Precio,,Se visualiza correctamente la pantalla de Realizar nuevo cambio de precio,P1,,,,,,,,,,,
+MMCS -37272  - 03,4,Ingresar No de Item/UPC Producto,,Se permite ingresar los datos del producto correctamente,P1,,,,,,,,,,,
+MMCS -37272  - 03,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS -37272  - 03,6,Seleccionar el formato a trabajar (WE),,"Se permite la selección de un solo formato entre las siguiente opciones:
+Todos
+SC
+B
+WE
+e-Comm",P1,,,,,,,,,,,
+MMCS -37272  - 03,7,Seleccionar tipo de movimiento,,"Se permite la selección de una de las siguientes opciones:
+CB - Precio Base Corporativo
+SB - Precio base por formato
+AR-TR - Rollback
+PA - Precio Ajustado
+CS - Cambio de costo",P1,,,,,,,,,,,
+MMCS -37272  - 03,8,Seleccionar Fecha de Vigencia Inicial ,,Se permite correctamente la selección de una fecha,P1,,,,,,,,,,,
+MMCS -37272  - 03,9,Seleccionar Fecha de Vigencia Final ,,Al elegir la opción CB/SB/CS el sistema asigna la fecha de vigencia final con los siguientes datos: 31/12/2049,P1,,,,,,,,,,,
+MMCS -37272  - 03,10,Dar clic al botón Aceptar,,Al dar clic al botón aceptar el botón el sistema llena los datos de la tabla de Cambio de Precio,P1,,,,,,,,,,,
+MMCS -37272  - 03,11,Ingresar el Precio Venta al Público en la sección de color morado (Realizar una profundización de precio),,Se permite ingresar correctamente el precio ,P1,,,,,,,,,,,
+MMCS -37272  - 03,12,Dar clic al botón Validar,,"Al dar clic al botón validar el sistema realiza la validación de reglas correctamente sin mostrar ningún error o advertencia y habílita el botón Enviar Cambios
+Al ingresar un precio más alto que SC y WE se muestra el siguiente error: ""Un artículo de SC o WE no puede tener un precio más bajo que el del formato de Bodega""",P1,,,,,,,,,,,
+MMCS - 35539  - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-139-35539-01 - Nivel de autorización en Cancelaciones - Promo Futura,,MMCS-39569,MMCS-39582,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-196,TC-Compass
+MMCS - 35539  - 01,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35539  - 01,3,Seleccionar opción Promociones,,Se visualiza correctamente la pantalla de Realizar nueva Promocion,P1,,,,,,,,,,,
+MMCS - 35539  - 01,4,Ingresar No de Promoción Futura (Folio DP),,Se permite ingresar los datos de la promoción correctamente,P1,,,,,,,,,,,
+MMCS - 35539  - 01,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35539  - 01,6,Seleccionar Tipo de movimiento Cancelación,,"Se permite la selección de un solo movimiento entre las siguiente opciones:
+Mantenimiento
+Cancelación",P1,,,,,,,,,,,
+MMCS - 35539  - 01,7,Dar clic al botón Aceptar,,Se muestra correctamente la información de la promoción ingresada,P1,,,,,,,,,,,
+MMCS - 35539  - 01,8,Dar clic al botón Validar,,Se realizan las validaciones correctamente,P1,,,,,,,,,,,
+MMCS - 35539  - 01,9,Dar clic al botón Enviar Cambios,,Se realizan las validaciones correctamente,P1,,,,,,,,,,,
+MMCS - 35539  - 01,10,"Ingresar usuario en el Campo ""Escriba el Usuario""",,Se permite ingresar correctamente la información,P1,,,,,,,,,,,
+MMCS - 35539  - 01,11,Dar clic al botón Obtener Autorizadores,,"Al haber ingresado una promoción futura se obtiene autorización de nivel 4, mostrando como único autorizador al Category Manager",P1,,,,,,,,,,,
+MMCS - 35539  - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalizacion
+Red de Seguridad
+WHPK Óptimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-139-35539-01 - Nivel de autorización en Cancelaciones - Promo Vigente,,MMCS-39569,MMCS-39582,312169,vn57rn3,"PCS_Inteligencia de Precios / Dig. Cambios de Precio (PriceX, DP, EyV) 2025",DA_AX,DEV,SP-CP-196,TC-Compass
+MMCS - 35539  - 02,2,Seleccionar la opción Digitalización,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes opciones:
+Innovación en la gestión de cambios de precio
+Cambio de precio
+Historial
+Promociones
+Perecederos
+Consulta de Precios/promociones
+
+Ordenes de compra
+Creación de ordenes de compra Nacionales
+Creación de ordenes de compra Importadas
+Mantenimiento de orden de compra
+Histórico de orden de compra",P1,,,,,,,,,,,
+MMCS - 35539  - 02,3,Seleccionar opción Promociones,,Se visualiza correctamente la pantalla de Realizar nueva Promocion,P1,,,,,,,,,,,
+MMCS - 35539  - 02,4,Ingresar No de Promoción Vigente (Folio DP),,Se permite ingresar los datos de la promoción correctamente,P1,,,,,,,,,,,
+MMCS - 35539  - 02,5,Ingresar al modal de movimiento,,"Al presionar la tecla enter, el sistema muestra el modal correspondiente a la confuguración de Cambio de Precio",P1,,,,,,,,,,,
+MMCS - 35539  - 02,6,Seleccionar Tipo de movimiento Cancelación,,"Se permite la selección de un solo movimiento entre las siguiente opciones:
+Mantenimiento
+Cancelación",P1,,,,,,,,,,,
+MMCS - 35539  - 02,7,Dar clic al botón Aceptar,,Se muestra correctamente la información de la promoción ingresada,P1,,,,,,,,,,,
+MMCS - 35539  - 02,8,Dar clic al botón Validar,,Se realizan las validaciones correctamente,P1,,,,,,,,,,,
+MMCS - 35539  - 02,9,Dar clic al botón Enviar Cambios,,Se realizan las validaciones correctamente,P1,,,,,,,,,,,
+MMCS - 35539  - 02,10,"Ingresar usuario en el Campo ""Escriba el Usuario""",,Se permite ingresar correctamente la información,P1,,,,,,,,,,,
+MMCS - 35539  - 02,11,Dar clic al botón Obtener Autorizadores,,"Al haber ingresado una promoción vigente se obtiene autorización de nivel 3, mostrando como autorizadores al Category Manager y Lider de Tribu",P1,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
