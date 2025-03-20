@@ -1,0 +1,880 @@
+﻿Test Case Identifier,Step No,Action,Data,Expected Result,Priority,Test Summary,Description,TestSet,TestPlan,Sprint,Assignee,Componente,Label,Label,Label,Label
+MMCS - 37731 - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-18-37731-01 - Automatches - Competidores,,MMCS-39625,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37731 - 01,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37731 - 01,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- botón Limpiar Filtros",P1,,,,,,,,,,,
+MMCS - 37731 - 01,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la selección de formato entre las siguientes Opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,,,,,,,
+MMCS - 37731 - 01,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 Opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,,,,,,,
+MMCS - 37731 - 01,6,Validar mensaje del Campo Competidores,,"El campo competidor ahora muestra la leyenda ""
+Selecciona hasta 4 competidores""",P1,,,,,,,,,,,
+MMCS - 37731 - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-18-37731-02- Automatches - Botón Validar,,MMCS-39625,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37731 - 02,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37731 - 02,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- botón Limpiar Filtros",P1,,,,,,,,,,,
+MMCS - 37731 - 02,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la selección de formato entre las siguientes Opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,,,,,,,
+MMCS - 37731 - 02,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 Opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,,,,,,,
+MMCS - 37731 - 02,6,Seleccionar Competidores,,"El campo competidor ahora muestra la leyenda ""
+Selecciona hasta 4 competidores""",P1,,,,,,,,,,,
+MMCS - 37731 - 02,7,Validar cambio del botón Aplicar,,Ahora el menú muestra un botón con la leyenda aplicar y no se realiza la búsqueda al clickear,P1,,,,,,,,,,,
+MMCS - 37731 - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-18-37731-03- Automatches - Pestañas de Resultados,,MMCS-39625,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37731 - 03,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37731 - 03,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- botón Limpiar Filtros",P1,,,,,,,,,,,
+MMCS - 37731 - 03,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la selección de formato entre las siguientes Opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,,,,,,,
+MMCS - 37731 - 03,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 Opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,,,,,,,
+MMCS - 37731 - 03,6,Seleccionar Competidores,,"El campo competidor ahora muestra la leyenda ""
+Selecciona hasta 4 competidores""",P1,,,,,,,,,,,
+MMCS - 37731 - 03,7,Dar clic al botón Aplicar,,El sistema aplica el filtro de la selección realizada y está lista para agregar más datos de filtos o realizar la búsqueda,P1,,,,,,,,,,,
+MMCS - 37731 - 03,8,Validar Pestañas de Resultados Automatches,,El sistema muestra las pestañas de resultados correctamente con su respectiva descripción,P1,,,,,,,,,,,
+MMCS - 37731 - 04,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-18-37731-04- Automatches - Imagen de Instrucciones,,MMCS-39625,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37731 - 04,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37731 - 04,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- botón Limpiar Filtros",P1,,,,,,,,,,,
+MMCS - 37731 - 04,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la selección de formato entre las siguientes Opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,,,,,,,
+MMCS - 37731 - 04,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 Opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,,,,,,,
+MMCS - 37731 - 04,6,Seleccionar Competidores,,"El campo competidor ahora muestra la leyenda ""
+Selecciona hasta 4 competidores""",P1,,,,,,,,,,,
+MMCS - 37731 - 04,7,Dar clic al botón Aplicar,,El sistema aplica el filtro de la selección realizada y está lista para agregar más datos de filtos o realizar la búsqueda,P1,,,,,,,,,,,
+MMCS - 37731 - 04,8,Validar Mensaje de Instrucciones en las pestañas de Resultados,,"El sistema muestra imagen con texto ""Filtra la información para ver aquí tus matches"" cuando no se ha realizado una búsqueda",P1,,,,,,,,,,,
+MMCS - 37731 - 05,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-18-37731-05- Automatches - Esqueleto de búsqueda,,MMCS-39625,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37731 - 05,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37731 - 05,3,Seleccionar la pestaña de Automatches,,"Se visualiza correctamente la pantalla de Compass - Kraken - Automatches con los siguientes datos:
+- Opción Formato de tienda
+- Opción Banner
+- Opción Competidor
+- Opción Tribu
+- Opción Super Squad
+- Opción Squad
+- Opción Departamento
+- Opción Categoría
+- botón Buscar (Deshabilitado inicialmente hasta que se realice como mínimo la selección de Competidor)
+- botón Limpiar Filtros",P1,,,,,,,,,,,
+MMCS - 37731 - 05,4,"Seleccionar Formato de tienda
+(Seleccionar Walmart)",,"Se permite la selección de formato entre las siguientes Opciones:
+- Walmart
+- Bodega Aurrera
+- Sams",P1,,,,,,,,,,,
+MMCS - 37731 - 05,5,Seleccionar Banner,,"El sistema permite seleccionar entre 2 Opciones:
+- On Demand
+- Catalogo extendido",P1,,,,,,,,,,,
+MMCS - 37731 - 05,6,Seleccionar Competidores,,"El campo competidor ahora muestra la leyenda ""
+Selecciona hasta 4 competidores""",P1,,,,,,,,,,,
+MMCS - 37731 - 05,7,Dar clic al botón Aplicar,,El sistema aplica el filtro de la selección realizada y está lista para agregar más datos de filtos o realizar la búsqueda,P1,,,,,,,,,,,
+MMCS - 37731 - 05,8,Dar clic al botón Buscar,,El sistema empieza a realizar la búsqueda de información con base a los filtros seleccionados,P1,,,,,,,,,,,
+MMCS - 37731 - 05,9,Validar esqueleto de búsqueda,,"El sistema muestra esqueleto de búsqueda mientras termina la consulta
+Se visualiza formato de tabla durante la carga de información",P1,,,,,,,,,,,
+MMCS - 37777 - 01,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-19-37777-01 - Reportes - Sábana eComm - Botón,,MMCS-39627,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37731 - 01,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37731 - 01,3,Seleccionar la pestaña de Reportes,,"Se visualiza correctamente la pantalla de Compass - Kraken - Reportes, mostrando las siguientes pestañas disponibles:
+Resumen Ejecutivo
+Reportes especiales
+Sam's
+Sabana de precios
+Sábana eCommerce
+Best Sellers
+Eventos",P1,,,,,,,,,,,
+MMCS - 37731 - 01,4,Seleccionar la pestaña Sábana eCommerce,,"El sistema muestra la pestaña de Sábana eCommerce con los siguientes datos:
+- Bóton Sábana eComm",P1,,,,,,,,,,,
+MMCS - 37731 - 01,5,Validar botón Sábana eComm,,Se visualiza correctamente el botón,P1,,,,,,,,,,,
+MMCS - 37777 - 02,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-19-37777-02- Reportes - Sábana eComm - Leyenda al Generar el Reporte,,MMCS-39627,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37777 - 02,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37777 - 02,3,Seleccionar la pestaña de Reportes,,"Se visualiza correctamente la pantalla de Compass - Kraken - Reportes, mostrando las siguientes pestañas disponibles:
+Resumen Ejecutivo
+Reportes especiales
+Sam's
+Sabana de precios
+Sábana eCommerce
+Best Sellers
+Eventos",P1,,,,,,,,,,,
+MMCS - 37777 - 02,4,Seleccionar la pestaña Sábana eCommerce,,"El sistema muestra la pestaña de Sábana eCommerce con los siguientes datos:
+- Bóton Sábana eComm",P1,,,,,,,,,,,
+MMCS - 37777 - 02,5,Dar clic al botón Sábana eComm,,"El sistema comienza descarga del reporte correctamente mostrando la siguiente leyenda:
+""Estamos generando tu reporte y se descargarán 1 archivo(s) en automático al terminar. Si sales de Kraken, se interrumpirá el proceso.""
+Se visualiza mensaje spark ""Se ha iniciado la descarga, verificala en el centro de descargas...""",P1,,,,,,,,,,,
+MMCS - 37777 - 03,1,Ingresar a Compass,,"Se ingresa correctamente al sistema y se muestran las siguientes Opciones:
+Inicio
+ATOM
+Grupo de tiendas
+CANELA
+Parrilla Promocional
+SUMD
+Digitalización
+Red de Seguridad
+WHPK Optimo
+Tableros
+Accesos directos
+Manuales e instructivos
+Cost Analytics
+Price Gap
+Políticas vigentes
+Kraken
+SUMD MDO Sams
+Configuración de Perfil
+Registrar Anuncio",P1,TC-19-37777-03- Reportes - Sábana eComm - Descargar Reporte,,MMCS-39627,MMCS-39591,312171,vn57rn3,PCS_Kraken 2025,DA_AX,DEV,SP-KR-27,TC-Compass
+MMCS - 37777 - 03,2,Seleccionar la Opción Kraken,,"Se visualiza correctamente el menú de Digitalización mostrando las siguientes Opciones:
+
+Kraken",P1,,,,,,,,,,,
+MMCS - 37777 - 03,3,Seleccionar la pestaña de Reportes,,"Se visualiza correctamente la pantalla de Compass - Kraken - Reportes, mostrando las siguientes pestañas disponibles:
+Resumen Ejecutivo
+Reportes especiales
+Sam's
+Sabana de precios
+Sábana eCommerce
+Best Sellers
+Eventos",P1,,,,,,,,,,,
+MMCS - 37777 - 03,4,Seleccionar la pestaña Sábana eCommerce,,"El sistema muestra la pestaña de Sábana eCommerce con los siguientes datos:
+- Bóton Sábana eComm",P1,,,,,,,,,,,
+MMCS - 37777 - 03,5,Dar clic al botón Sábana eComm,,"El sistema comienza descarga del reporte correctamente mostrando la siguiente leyenda:
+""Estamos generando tu reporte y se descargarán 1 archivo(s) en automático al terminar. Si sales de Kraken, se interrumpirá el proceso.""
+Se visualiza mensaje spark ""Se ha iniciado la descarga, verificala en el centro de descargas...""",P1,,,,,,,,,,,
+MMCS - 37777 - 03,6,Validar descarga del archivo,,"Cuando termine la descarga el sistema mostrará un mensaje Spark con la leyenda ""Descarga Finalizada""
+Se podrá visualizar el reporte en formato excel correctamente",P1,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
